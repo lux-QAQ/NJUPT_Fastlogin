@@ -1,9 +1,3 @@
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <windows.h>
-#include <stdio.h>
-#include <string.h>
-
 /* 编译指令:
 clang++ -O3 -march=native -mtune=native  -fno-stack-protector -no-pie   -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti -Wl,--gc-sections -s version1_API.cpp -o main.exe -lws2_32 -lkernel32 -fuse-ld=lld */
 
@@ -19,6 +13,13 @@ clang++ -O3 -march=native -mtune=native  -fno-stack-protector -no-pie   -flto -f
 #define ACCOUNT "B2***0***@cmcc" // 这里改写你的账号例如B2***0***@cmcc
 #define PASSWORD "1234567" // 这里改写成你的登录密码
 
+
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+#include <stdio.h>
+#include <string.h>
 #pragma comment(lib, "ws2_32.lib")
 
 // 常量定义，使用constexpr优化

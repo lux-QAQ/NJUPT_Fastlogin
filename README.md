@@ -13,6 +13,10 @@
 3. 由于以上原因,所以本项目不可能提供`Release版本`,只能提供源码,请自行编译.
 4. (有可能出现的问题)由于`p.njupt.edu.cn`的域名解析后的`IP`被硬编码在程序中,所以如果`IP`变了,那么程序就会完全失效.
 
+## 有哪些版本
+1. `version1_API.cpp` 使用windows的底层`API`函数实现的版本,速度慢`1ms`左右
+2. `version2_ASM.cpp` 使用`汇编`实现的版本,速度最快
+3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
 
 ## 使用方法
 1. 需要准备:
@@ -20,7 +24,7 @@
 2. 拉取源码:  
 `git clone https://github.com/lux-QAQ/NJPUT_Fastlogin.git`
 3. 修改源码:  
-    - 打开`version2_ASM.cpp`(这里选择你需要的版本即可,推荐这个)
+    - 打开`version2_ASMcross.cpp`(这里选择你需要的版本即可,推荐这个)
     - **按照注释**修改`#define USERNAME "你的账户"`
     - **按照注释**修改`#define PASSWORD "你的密码"` 
 4. 使用注释中对应的指令编译源码
@@ -29,8 +33,8 @@
 > 如果你不会编译可以联系我`QQ:1098346640`~~仅限妹子~~,我有时间会尽力帮助你
 ## 可能会继续补充的功能
 - [x] Windows 支持
+- [x] Linux   支持
 - [ ] Android 支持
-- [ ] Linux 支持
 - [ ] 使用配置文件
 - [ ] IPv6 登录的支持
 - [ ] 单线多播的支持
