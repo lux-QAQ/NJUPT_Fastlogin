@@ -19,15 +19,22 @@
 3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
 
 ## 使用方法
+### Android
+1. 下载Release中的apk文件
+2. 安装后按照提示输入账号密码\选择对应运营商
+3. Enjoy it!
+---
+### Windows && Linux
 1. 需要准备:
     - Windows: Clang/GCC 或者 VS Studio
+    - Linux: Clang/GCC
 2. 拉取源码:  
 `git clone https://github.com/lux-QAQ/NJPUT_Fastlogin.git`
-3. 修改源码:  
+1. 修改源码:  
     - 打开`version2_ASMcross.cpp`(这里选择你需要的版本即可,推荐这个)
     - **按照注释**修改`#define USERNAME "你的账户"`
     - **按照注释**修改`#define PASSWORD "你的密码"` 
-4. 使用注释中对应的指令编译源码
+2. 使用注释中对应的指令编译源码
 
 > 如果编译过程有问题请发Issue,我会尽快解决   
 > 如果你不会编译可以联系我`QQ:1098346640`~~仅限妹子~~,我有时间会尽力帮助你
@@ -62,6 +69,17 @@ version2_ASM.exe 比 version1_API.exe 快 1.11 倍
 
 测试完成，按任意键退出...
 ```
+## 安全性
+登录软件的行为和病毒非常相似:
+1. 体积小
+2. 不需要安装和交互
+3. 后台静默运行
+4. 会自动发送数据
+
+由于以上原因,程序非常容易被杀毒软件误报.但是源码是开源的,有没有恶意代码,你看源码就知道了.    
+**这里附上安全性检测结果:**
+![安全性检测结果](./img/de.png)
+
 ## 免责声明
 1. 本项目仅供学习交流使用,请勿用于非法用途.任何后果自行承担.
 2. **本项目的通信没有使用`SSL`加密,请慎重考虑确保安全后使用,其后果自行承担.**
