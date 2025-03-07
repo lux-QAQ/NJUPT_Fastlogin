@@ -12,8 +12,8 @@ Linux:   clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -f
 注意除了你的账户密码里面的内容,不要在""里面留有空格
 */
 
-#define ACCOUNT "B23040408@njxy" // 这里改写你的账号例如B2***0***@cmcc
-#define PASSWORD "=wang3205825" // 这里改写成你的登录密码
+#define ACCOUNT "B2***0***@cmcc" // 这里改写你的账号例如B2***0***@cmcc
+#define PASSWORD "1234567" // 这里改写成你的登录密码
 
 
 
