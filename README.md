@@ -21,9 +21,12 @@
 ## 使用方法
 **详细视频教程**    
 Android:    
-[![Android](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg@308w_174h)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
+[![Android](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
+
+
+
 Windows:
-[![Windows](https://i2.hdslb.com/bfs/archive/61f58444f3570f2753e5b624f77816e1739f50d5.jpg@300w_174h)](https://www.bilibili.com/video/BV1MuRWY4E2b/)
+[![Windows](https://i2.hdslb.com/bfs/archive/61f58444f3570f2753e5b624f77816e1739f50d5.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4E2b/)
 
 
 
