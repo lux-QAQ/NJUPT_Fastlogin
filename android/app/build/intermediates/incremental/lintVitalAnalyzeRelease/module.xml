@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="D:\test3\njuptnet\android\app"
+    dir="D:\test3\androidnjupt\android\app"
     name=":app"
     type="APP"
     maven="njuptfastlogin:app:"

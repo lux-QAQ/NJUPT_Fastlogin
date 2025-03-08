@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="reset_config"
+        android:enabled="true"
+        android:icon="@drawable/ic_reset"
+        android:shortcutShortLabel="@string/reset_config_short"
+        android:shortcutLongLabel="@string/reset_config_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.njuptfastlogin"
+            android:targetClass="com.example.njuptfastlogin.MainActivity">
+            <extra android:name="reset_config" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

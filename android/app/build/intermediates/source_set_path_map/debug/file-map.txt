@@ -53,9 +53,9 @@ com.example.njuptfastlogin.app-lifecycle-viewmodel-2.7.0-51 C:\Users\lux\.gradle
 com.example.njuptfastlogin.app-savedstate-1.2.1-52 C:\Users\lux\.gradle\caches\transforms-3\fcccc118d8639218088b447db6d2456f\transformed\savedstate-1.2.1\res
 com.example.njuptfastlogin.app-ui-graphics-release-53 C:\Users\lux\.gradle\caches\transforms-3\fddd32ecfc2a25136c5e4f0fbe21a1ef\transformed\ui-graphics-release\res
 com.example.njuptfastlogin.app-lifecycle-livedata-core-ktx-2.7.0-54 C:\Users\lux\.gradle\caches\transforms-3\ffd6131a0e2e4d5980c680113e798cf2\transformed\lifecycle-livedata-core-ktx-2.7.0\res
-com.example.njuptfastlogin.app-resValues-55 D:\test3\njuptnet\android\app\build\generated\res\resValues\debug
-com.example.njuptfastlogin.app-packageDebugResources-56 D:\test3\njuptnet\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.njuptfastlogin.app-packageDebugResources-57 D:\test3\njuptnet\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.njuptfastlogin.app-merged_res-58 D:\test3\njuptnet\android\app\build\intermediates\merged_res\debug
-com.example.njuptfastlogin.app-debug-59 D:\test3\njuptnet\android\app\src\debug\res
-com.example.njuptfastlogin.app-main-60 D:\test3\njuptnet\android\app\src\main\res
+com.example.njuptfastlogin.app-resValues-55 D:\test3\find\android\app\build\generated\res\resValues\debug
+com.example.njuptfastlogin.app-packageDebugResources-56 D:\test3\find\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.njuptfastlogin.app-packageDebugResources-57 D:\test3\find\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.njuptfastlogin.app-merged_res-58 D:\test3\find\android\app\build\intermediates\merged_res\debug
+com.example.njuptfastlogin.app-debug-59 D:\test3\find\android\app\src\debug\res
+com.example.njuptfastlogin.app-main-60 D:\test3\find\android\app\src\main\res

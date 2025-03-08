@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="348170c5-5b42-4acb-9aad-d412c5c7f677" name="Changes" comment="" />
+    <list default="true" id="d1ce4bbb-f599-44f7-82b1-cbc96c9b1fa5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +21,48 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="njuptfastlogin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="njuptfastlogin" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="njuptfastlogin" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="njuptfastlogin" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -36,39 +72,23 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ttVrEZo16wVBvMK3zXwedytpDM" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2tz8d3ujtCOhsBTCK6D2CmhOqRY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ApkExportedModule": "njuptfastlogin.app",
-    "BundleExportedModule": "njuptfastlogin.app",
-    "ExportApk.ApkPathFornjuptfastlogin.app": "D:\\test3\\njuptnet\\android\\app",
-    "ExportBundle.BundlePathFornjuptfastlogin.app": "D:\\test3\\njuptnet\\android\\app",
+    "ExportApk.ApkPathFornjuptfastlogin.app": "D:\\test3\\androidnjupt\\android\\app",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_directory_selection": "D:/test3/njuptnet/android/app/src/androidTest/java",
-    "last_opened_file_path": "D:/test3/find/android",
-    "project.structure.last.edited": "SDK Location",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "C:/androidkey/luxmix.jks"
   },
   "keyToStringList": {
     "ExportApk.BuildVariants": [
@@ -76,17 +96,6 @@
     ]
   }
 }]]></component>
-  <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Default Config" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\test3\njuptnet\android\app\src\main\res\font" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\test3\njuptnet\android\app\src\main\res\font" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="njuptfastlogin.app.main" />
@@ -158,11 +167,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="348170c5-5b42-4acb-9aad-d412c5c7f677" name="Changes" comment="" />
-      <created>1741171556167</created>
+      <changelist id="d1ce4bbb-f599-44f7-82b1-cbc96c9b1fa5" name="Changes" comment="" />
+      <created>1741343629019</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741171556167</updated>
+      <updated>1741343629019</updated>
     </task>
     <servers />
   </component>
@@ -170,16 +179,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/njuptfastlogin/MainActivity.kt</url>
-          <line>627</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/njuptfastlogin/WifiUtils.kt</url>
+          <line>135</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="java.lang.String" memberName="shadow$_klass_" />
-      </pinned-members>
-    </pin-to-top-manager>
   </component>
 </project>

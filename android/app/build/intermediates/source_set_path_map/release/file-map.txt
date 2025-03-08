@@ -49,9 +49,9 @@ com.example.njuptfastlogin.app-lifecycle-viewmodel-2.7.0-47 C:\Users\lux\.gradle
 com.example.njuptfastlogin.app-savedstate-1.2.1-48 C:\Users\lux\.gradle\caches\transforms-3\fcccc118d8639218088b447db6d2456f\transformed\savedstate-1.2.1\res
 com.example.njuptfastlogin.app-ui-graphics-release-49 C:\Users\lux\.gradle\caches\transforms-3\fddd32ecfc2a25136c5e4f0fbe21a1ef\transformed\ui-graphics-release\res
 com.example.njuptfastlogin.app-lifecycle-livedata-core-ktx-2.7.0-50 C:\Users\lux\.gradle\caches\transforms-3\ffd6131a0e2e4d5980c680113e798cf2\transformed\lifecycle-livedata-core-ktx-2.7.0\res
-com.example.njuptfastlogin.app-resValues-51 D:\test3\njuptnet\android\app\build\generated\res\resValues\release
-com.example.njuptfastlogin.app-packageReleaseResources-52 D:\test3\njuptnet\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
-com.example.njuptfastlogin.app-packageReleaseResources-53 D:\test3\njuptnet\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.example.njuptfastlogin.app-merged_res-54 D:\test3\njuptnet\android\app\build\intermediates\merged_res\release
-com.example.njuptfastlogin.app-main-55 D:\test3\njuptnet\android\app\src\main\res
-com.example.njuptfastlogin.app-release-56 D:\test3\njuptnet\android\app\src\release\res
+com.example.njuptfastlogin.app-resValues-51 D:\test3\androidnjupt\android\app\build\generated\res\resValues\release
+com.example.njuptfastlogin.app-packageReleaseResources-52 D:\test3\androidnjupt\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.njuptfastlogin.app-packageReleaseResources-53 D:\test3\androidnjupt\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.njuptfastlogin.app-merged_res-54 D:\test3\androidnjupt\android\app\build\intermediates\merged_res\release
+com.example.njuptfastlogin.app-main-55 D:\test3\androidnjupt\android\app\src\main\res
+com.example.njuptfastlogin.app-release-56 D:\test3\androidnjupt\android\app\src\release\res

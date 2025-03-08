@@ -11,6 +11,7 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_reset
 font lansui
 id ispLabel
 id ispSpinner
@@ -24,6 +25,9 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
+string reset_config_long
+string reset_config_short
 style Theme.Njuptfastlogin
 xml backup_rules
 xml data_extraction_rules
+xml shortcuts

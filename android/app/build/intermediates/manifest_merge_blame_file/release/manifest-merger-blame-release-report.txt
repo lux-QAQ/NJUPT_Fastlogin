@@ -9,29 +9,29 @@
 9        android:targetSdkVersion="34" />
 10    <!-- 添加网络权限 -->
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:5:5-76
-11-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:5:22-73
+11-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:5:5-76
+11-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:5:22-73
 12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-12-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:6:5-76
-12-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:6:22-73
+12-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:6:5-76
+12-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:6:22-73
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:7:5-79
-13-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:7:22-76
+13-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:8:5-81
-14-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:8:22-78
+14-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:9:5-79
-15-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:9:22-76
+15-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
-16-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:10:5-11:47
-16-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:10:22-77
+16-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:10:5-11:47
+16-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:10:22-77
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:12:5-67
-17-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:12:22-64
+17-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:12:5-67
+17-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:12:22-64
 18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-18-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:13:5-79
-18-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:13:22-76
+18-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:13:22-76
 19
 20    <permission
 20-->[androidx.core:core:1.12.0] C:\Users\lux\.gradle\caches\transforms-3\821f26a012569af4e4f97906124bf29d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -45,115 +45,124 @@
 24-->[androidx.core:core:1.12.0] C:\Users\lux\.gradle\caches\transforms-3\821f26a012569af4e4f97906124bf29d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 25
 26    <application
-26-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:14:5-36:19
+26-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:14:5-41:19
 27        android:allowBackup="true"
-27-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:15:9-35
+27-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:15:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.12.0] C:\Users\lux\.gradle\caches\transforms-3\821f26a012569af4e4f97906124bf29d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:17:9-65
-30        android:extractNativeLibs="false"
-31        android:fullBackupContent="@xml/backup_rules"
-31-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:18:9-54
-32        android:icon="@mipmap/ic_launcher"
-32-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:19:9-43
-33        android:label="@string/app_name"
-33-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:20:9-41
-34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:21:9-54
-35        android:supportsRtl="true"
-35-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:22:9-35
-36        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-36-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:23:9-72
-37        android:usesCleartextTraffic="true" >
-37-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:16:9-44
-38        <activity
-38-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:25:9-35:20
-39            android:name="com.example.njuptfastlogin.MainActivity"
-39-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:26:13-41
-40            android:exported="true"
-40-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:27:13-36
-41            android:label="@string/app_name"
-41-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:28:13-45
-42            android:theme="@style/Theme.Njuptfastlogin" >
-42-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:29:13-56
-43            <intent-filter>
-43-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:30:13-34:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:31:17-69
-44-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:31:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:33:17-77
-46-->D:\test3\njuptnet\android\app\src\main\AndroidManifest.xml:33:27-74
-47            </intent-filter>
-48        </activity>
-49
-50        <provider
-50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-52            android:authorities="com.example.njuptfastlogin.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-54            <meta-data
-54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-60            <meta-data
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-62                android:value="androidx.startup" />
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-63        </provider>
-64
-65        <receiver
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-67            android:directBootAware="false"
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-68            android:enabled="true"
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-69            android:exported="true"
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-70            android:permission="android.permission.DUMP" >
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-71            <intent-filter>
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-73            </intent-filter>
-74            <intent-filter>
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-75                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-76            </intent-filter>
-77            <intent-filter>
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-78                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-79            </intent-filter>
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-81                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-82            </intent-filter>
-83        </receiver>
-84    </application>
-85
-86</manifest>
+29-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:18:9-65
+30        android:excludeFromRecents="true"
+30-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:16:9-42
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:19:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:20:9-43
+34        android:label="@string/app_name"
+34-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:21:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:22:9-54
+36        android:supportsRtl="true"
+36-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:23:9-35
+37        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+37-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:24:9-72
+38        android:usesCleartextTraffic="true" >
+38-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:17:9-44
+39        <activity
+39-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:26:9-40:20
+40            android:name="com.example.njuptfastlogin.MainActivity"
+40-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:27:13-41
+41            android:exported="true"
+41-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:28:13-36
+42            android:label="@string/app_name"
+42-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:29:13-45
+43            android:theme="@style/Theme.Njuptfastlogin" >
+43-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:30:13-56
+44            <intent-filter>
+44-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:31:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:32:17-69
+45-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:32:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:34:17-77
+47-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49            <!-- 添加应用快捷方式 -->
+50            <meta-data
+50-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:37:13-39:53
+51                android:name="android.app.shortcuts"
+51-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:38:17-53
+52                android:resource="@xml/shortcuts" />
+52-->D:\test3\androidnjupt\android\app\src\main\AndroidManifest.xml:39:17-50
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.njuptfastlogin.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\32ee973b89dcb2d4fbd1151f1e51dc48\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lux\.gradle\caches\transforms-3\4868e5ec2e2f28ed0d515004eaa83088\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+68        </provider>
+69
+70        <receiver
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+72            android:directBootAware="false"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+73            android:enabled="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+74            android:exported="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+75            android:permission="android.permission.DUMP" >
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lux\.gradle\caches\transforms-3\94fdbf6b73f70b7cd36ac41b7050cd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>

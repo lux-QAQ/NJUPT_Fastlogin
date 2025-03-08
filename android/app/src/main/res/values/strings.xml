@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NJUPT Fast Login</string>
+    <string name="reset_config_short">重新配置</string>
+    <string name="reset_config_long">重新配置账户和密码</string>
+</resources>

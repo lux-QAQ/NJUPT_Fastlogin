@@ -14,6 +14,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">NJUPT Fast Login</string>
+    <string name="reset_config_long">重新配置账户和密码</string>
+    <string name="reset_config_short">重新配置</string>
     <style name="Theme.Njuptfastlogin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
