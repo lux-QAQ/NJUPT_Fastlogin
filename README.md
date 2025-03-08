@@ -19,6 +19,10 @@
 3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
 
 ## 使用方法
+**详细视频教程**
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114126038762288&bvid=BV1MuRWY4Ema&cid=28759034574&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114126038762357&bvid=BV1MuRWY4E2b&cid=28759034829&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ### Android
 1. 下载Release中的apk文件
 2. 安装后按照提示输入账号密码\选择对应运营商
