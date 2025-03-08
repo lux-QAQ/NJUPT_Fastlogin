@@ -19,13 +19,13 @@
 3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
 
 ## 使用方法
-**详细视频教程**    
+**详细视频教程(点击图片前往B站)**    
 Android:    
 [![Android](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
 
 
 
-Windows:      
+Windows & Linux:      
 [![Windows](https://i2.hdslb.com/bfs/archive/61f58444f3570f2753e5b624f77816e1739f50d5.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4E2b/)
 
 
