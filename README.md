@@ -19,20 +19,22 @@
 3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
 
 ## 使用方法
+**详细视频教程(点击图片前往B站)**    
+Android:    
+[![Android](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
+
+
+
+Windows & Linux:      
+[![Windows](https://i2.hdslb.com/bfs/archive/61f58444f3570f2753e5b624f77816e1739f50d5.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4E2b/)
+
+---
+
 ### Android
 1. 下载Release中的apk文件
 2. 安装后按照提示输入账号密码\选择对应运营商
 3. Enjoy it!
-
-### Android 权限的特殊说明
-#### 关于定位权限
-在Android 10.0及以上的系统中,由于安卓保护机制的原因,需要开启定位权限软件才能正常访问WIFI状态.所以请务必开启定位权限.
-#### 关于`WRITE_SECURE_SETTINGS`权限
-如果每次都要用户去手动开启定位那么就太麻烦了   
-然后运行`adb shell pm grant com.example.njuptfastlogin android.permission.WRITE_SECURE_SETTINGS`来获取这个自动开启定位的权限
-> 未来计划加上恢复到GPS使用软件前的状态的功能
 ---
-
 ### Windows && Linux
 1. 需要准备:
     - Windows: Clang/GCC 或者 VS Studio
