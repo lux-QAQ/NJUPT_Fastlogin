@@ -3,25 +3,26 @@
 
 // !!注意!!:此文件只能在MSVC下编译,建议使用vs studio
 
-#define ACCOUNT "B2***0***@cmcc" // 这里改写你的账号例如B2***0***@cmcc
-#define PASSWORD "1234567" // 这里改写成你的登录密码
+#define ACCOUNT "B2***0***@cmcc"  // 这里改写你的账号例如B2***0***@cmcc
+#define PASSWORD "1234567"        // 这里改写成你的登录密码
 #pragma comment(lib, "ws2_32.lib")
 
 // 预计算常量
 constexpr DWORD SERVER_IP = 0x0BF40A0A;  // 10.10.244.11 (网络字节序)
-constexpr USHORT SERVER_PORT = 0x2103;    // 801 (网络字节序)
+constexpr USHORT SERVER_PORT = 0x2103;   // 801 (网络字节序)
 
 // HTTP请求数据
 __declspec(align(16)) const char HTTP_REQUEST[] =
-"GET /eportal/portal/login?login_method=1&user_account=,0," ACCOUNT "&user_password=" PASSWORD
-" HTTP/1.1\r\n"
-"Host: 10.10.244.11:801\r\n"
-"Connection: close\r\n"
-"Accept: */*\r\n"
-"\r\n";
+    "GET /eportal/portal/login?login_method=1&user_account=,0," ACCOUNT "&user_password=" PASSWORD
+    " HTTP/1.1\r\n"
+    "Host: 10.10.244.11:801\r\n"
+    "Connection: close\r\n"
+    "Accept: */*\r\n"
+    "\r\n";
 
 // 入口点
-extern "C" void __cdecl start() {
+extern "C" void __cdecl start()
+{
     WSADATA wsaData;
     SOCKET sock = INVALID_SOCKET;
     // 预计算一些常量值
@@ -38,7 +39,7 @@ extern "C" void __cdecl start() {
         call WSAStartup
         add esp, 12
 
-        // 创建Socket
+                                             // 创建Socket
         push 6; IPPROTO_TCP
         push 1; SOCK_STREAM
         push 2; AF_INET
@@ -46,11 +47,11 @@ extern "C" void __cdecl start() {
         add esp, 12
         mov sock, eax
 
-        // 检查socket是否有效
+            // 检查socket是否有效
         cmp eax, INVALID_SOCK_VALUE
         je cleanup
 
-        // 设置TCP_NODELAY
+                // 设置TCP_NODELAY
         push 4
         mov eax, 1; TRUE
         push eax
@@ -96,7 +97,7 @@ extern "C" void __cdecl start() {
         call connect
         add esp, 12
 
-        // 发送HTTP请求
+               // 发送HTTP请求
         push 0; flags
         push REQUEST_SIZE
         lea eax, HTTP_REQUEST
@@ -122,7 +123,8 @@ extern "C" void __cdecl start() {
 
 // 保持原有入口点
 #pragma comment(linker, "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
-int main() {
+int main()
+{
     start();
     return 0;
 }

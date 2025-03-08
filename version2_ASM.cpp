@@ -15,8 +15,8 @@ clang++ -O3 -march=native -mtune=native  -fno-stack-protector -no-pie   -flto -f
 
 */
 
-#define ACCOUNT "B2***0***@cmcc" // 这里改写你的账号例如B2***0***@cmcc
-#define PASSWORD "1234567" // 这里改写成你的登录密码
+#define ACCOUNT "B2***0***@cmcc"  // 这里改写你的账号例如B2***0***@cmcc
+#define PASSWORD "1234567"        // 这里改写成你的登录密码
 
 // 避免包含额外头文件
 #pragma comment(lib, "ws2_32.lib")
@@ -97,11 +97,10 @@ extern "C" __attribute__((noreturn)) void __stdcall WinMainStart()
     SOCKET sock = INVALID_SOCKET;
 
     // Winsock初始化 - 直接使用
-    WSAStartup(MAKEWORD(2, 2), &wsaData) ;
+    WSAStartup(MAKEWORD(2, 2), &wsaData);
 
     // 创建Socket - 直接使用AF_INET常量避免变量查找
     sock = socket(2 /*AF_INET*/, 1 /*SOCK_STREAM*/, 6 /*IPPROTO_TCP*/);
-
 
     // TCP_NODELAY禁用Nagle算法，加速小数据包传输
     BOOL optval = TRUE;
@@ -122,7 +121,7 @@ extern "C" __attribute__((noreturn)) void __stdcall WinMainStart()
     serverAddr.sin_addr.s_addr = SERVER_IP_DWORD;  // 预计算的IP地址
 
     // 连接服务器
-    LowLevelConnect(sock, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) ;
+    LowLevelConnect(sock, (struct sockaddr*)&serverAddr, sizeof(serverAddr));
 
     // 一次性发送整个请求
     LowLevelSend(sock);
