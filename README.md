@@ -20,9 +20,9 @@
 
 ## 使用方法
 **详细视频教程**
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114126038762288&bvid=BV1MuRWY4Ema&cid=28759034574&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+[![](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114126038762357&bvid=BV1MuRWY4E2b&cid=28759034829&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ### Android
 1. 下载Release中的apk文件
 2. 安装后按照提示输入账号密码\选择对应运营商
