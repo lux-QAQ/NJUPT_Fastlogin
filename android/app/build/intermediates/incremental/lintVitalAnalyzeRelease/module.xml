@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="D:\test3\njuptnet\android\app"
+    name=":app"
+    type="APP"
+    maven="njuptfastlogin:app:"
+    agpVersion="8.1.1"
+    buildFolder="build"
+    bootClassPath="C:\study\androidsdk\platforms\android-34\android.jar;C:\study\androidsdk\build-tools\33.0.1\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

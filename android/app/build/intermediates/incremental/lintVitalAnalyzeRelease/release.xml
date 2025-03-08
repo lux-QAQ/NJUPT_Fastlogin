@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    useSupportLibraryVectorDrawables="true"
+    package="com.example.njuptfastlogin"
+    minSdkVersion="29"
+    targetSdkVersion="34"
+    mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.1;proguard-rules.pro"
+    partialResultsDir="build\intermediates\lint_vital_partial_results\release\out"
+    desugaredMethodsFiles="C:\Users\lux\.gradle\caches\transforms-3\80b1269444a1ed9e4108d375c1870346\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <mainArtifact
+      classOutputs="build\intermediates\javac\release\classes;build\tmp\kotlin-classes\release;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.njuptfastlogin"
+      generatedSourceFolders="build\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="build\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\lux\.gradle\caches\transforms-3\80b1269444a1ed9e4108d375c1870346\transformed\D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>

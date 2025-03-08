@@ -1,0 +1,10 @@
+#Fri Mar 07 11:14:26 GMT+08:00 2025
+base.0=D\:\\test3\\njuptnet\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=D\:\\test3\\njuptnet\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+base.2=D\:\\test3\\njuptnet\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes3.dex
+path.0=classes.dex
+path.1=classes2.dex
+path.2=classes3.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

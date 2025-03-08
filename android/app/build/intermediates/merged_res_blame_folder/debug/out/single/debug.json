@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\font_lansui.ttf.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\font\\lansui.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.njuptfastlogin.app-merged_res-59:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.njuptfastlogin.app-main-61:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-merged_res-59:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lux\\.gradle\\daemon\\8.0\\com.example.njuptfastlogin.app-main-61:\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]
