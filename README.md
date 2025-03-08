@@ -20,7 +20,7 @@
 
 ## 使用方法
 **详细视频教程**
-[![](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
+[![](https://i2.hdslb.com/bfs/archive/9281b9203e08a67232165e417ef0aae2c767e84b.jpg@308w_174h)](https://www.bilibili.com/video/BV1MuRWY4Ema/)
 
 
 ### Android
