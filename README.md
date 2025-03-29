@@ -18,6 +18,7 @@
 1. `version1_API.cpp` 使用windows的底层`API`函数实现的版本,速度慢`1ms`左右
 2. `version2_ASM.cpp` 使用`汇编`实现的版本,速度最快
 3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
+4. `Android v1.5`是安卓版本请前往Release下载
 
 ## 关于运营商
 | WIFI名称 | NJUPT     | NJUPT-CMCC | NJUPT-CHINANET |
