@@ -35,7 +35,7 @@ Android:
 
 
 
-Windows & Linux:      
+Windows & Linux & MacOS:      
 [![Windows](https://i2.hdslb.com/bfs/archive/61f58444f3570f2753e5b624f77816e1739f50d5.jpg@154w_87h)](https://www.bilibili.com/video/BV1MuRWY4E2b/)
 
 ---
