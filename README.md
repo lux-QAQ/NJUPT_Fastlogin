@@ -17,8 +17,10 @@
 ## 版本
 1. `version1_API.cpp` 使用windows的底层`API`函数实现的版本,速度慢`1ms`左右
 2. `version2_ASM.cpp` 使用`汇编`实现的版本,速度最快
-3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是跨平台版本,可以在`Windows`和`Linux`上使用.
+3. `version2_ASMcross.cpp`和`version2_ASMcross.cpp`是全平台版本,可以在`Windows`和`Linux`以及`MacOS`上完成编译正常运行. **推荐不知道选哪个的用这个**
 4. `Android v1.5`是安卓版本请前往Release下载
+> [!NOTE]
+> `version1`和`version2`的所有版本默认都在是`clang`编译器下测试。不保证在msvc下能正常编译通过，如果你的电脑只安装过`VS Studio`，请创建一个新的项目，然后把`version3_ASMall.cpp`的代码复制进去编译。
 
 ## 关于运营商
 | WIFI名称 | NJUPT     | NJUPT-CMCC | NJUPT-CHINANET |
@@ -60,10 +62,12 @@ Windows & Linux:
 ## 可能会继续补充的功能
 - [x] Windows 支持
 - [x] Linux   支持
+- [x] MacOS 支持
 - [x] Android 支持
 - [ ] 使用配置文件
 - [ ] IPv6 登录的支持
 - [ ] 单线多播的支持
+- [ ] 考虑适配其他学校
 
 ## 性能测试
 ``` shell
@@ -88,6 +92,10 @@ version2_ASM.exe 比 version1_API.exe 快 1.11 倍
 
 测试完成，按任意键退出...
 ```
+
+## 简单的原理解析
+南邮的校园网登录实际上就是一个`GET`请求,携带用户名和密码. 点击登录按钮就等于直接把构造好的这个`GET`请求发送到服务器. 但是默认的域名为`p.njupt.edu.cn`,这个域名会被解析成一个`IP地址`,然后再发送请求. 但是这个解析过程会消耗时间,而且南邮的DNS服务器非常慢,所以我们直接把`IP地址`硬编码在程序中,这样就省去了`DNS解析`的时间. 另外,使用`C`语言和`汇编`可以最大限度地减少程序的依赖。
+
 ## 安全性
 登录软件的行为和病毒非常相似:
 1. 体积小

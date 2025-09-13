@@ -3,7 +3,9 @@
 
 Windows: clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti -Wl,--gc-sections -s version2_ASMcross.cpp -o main.exe -lws2_32 -lkernel32 -fuse-ld=lld
 
-Linux:   clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti -Wl,--gc-sections -s version2_ASMcross.cpp -o main 
+Linux:   clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti -Wl,--gc-sections -s version2_ASMcross.cpp -o main
+
+MacOS:  clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti  -s version2_ASMcross.cpp -o main
 */
 
 /* 
@@ -12,8 +14,16 @@ Linux:   clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -f
 注意除了你的账户密码里面的内容,不要在""里面留有空格
 */
 
-#define ACCOUNT "B2***0***@cmcc"  // 这里改写你的账号例如B2***0***@cmcc
-#define PASSWORD "1234567"        // 这里改写成你的登录密码
+#define ACCOUNT "B23******@cmcc"  // 这里改写你的账号例如B2***0***@cmcc
+#define PASSWORD "********"        // 这里改写成你的登录密码
+
+
+#ifndef __cplusplus
+#error "请使用 C++ 编译器 (clang++ / g++)"
+#endif
+#if __cplusplus < 201103L
+#define constexpr const
+#endif
 
 #ifdef _WIN32
 #include <winsock2.h>
@@ -38,6 +48,7 @@ Linux:   clang++ -O3 -march=native -mtune=native -fno-stack-protector -no-pie -f
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
+#include <sys/time.h>
 #define SOCKET_CLOSE(s) close(s)
 #define EXIT_APP(code) exit(code)
 #define PLATFORM_INIT()
