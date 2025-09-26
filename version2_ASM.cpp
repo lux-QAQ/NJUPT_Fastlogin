@@ -4,7 +4,7 @@
 
 // 关于账号和密码,你需要在编译前修改他们
 /* 编译指令:
-clang++ -O3 -march=native -mtune=native  -fno-stack-protector -no-pie   -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti -Wl,--gc-sections -s version2_ASM.cpp -o main.exe -lws2_32 -lkernel32 -fuse-ld=lld */
+clang++ -O3 -march=native -mtune=native  -fno-stack-protector -no-pie   -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -mfpmath=sse -fno-exceptions -fno-rtti  -s version2_ASM.cpp -o main.exe -lws2_32 -lkernel32 -fuse-ld=lld */
 
 /* 
 
