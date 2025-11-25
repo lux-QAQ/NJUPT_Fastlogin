@@ -50,7 +50,7 @@ Windows & Linux & MacOS:
     - Windows: Clang/GCC 或者 VS Studio
     - Linux: Clang/GCC
 2. 拉取源码:  
-`git clone https://github.com/lux-QAQ/NJPUT_Fastlogin.git`
+`git clone https://github.com/lux-QAQ/NJUPT_Fastlogin.git`
 1. 修改源码:  
     - 打开`version2_ASMcross.cpp`(这里选择你需要的版本即可,推荐这个)
     - **按照注释**修改`#define USERNAME "你的账户"`
