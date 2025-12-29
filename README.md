@@ -57,6 +57,16 @@ Windows & Linux & MacOS:
     - **按照注释**修改`#define PASSWORD "你的密码"` 
 2. 使用注释中对应的指令编译源码
 
+关于 **arm64** 可以参考
+``` bash
+clang++ -target aarch64-linux-gnu \
+--sysroot=/usr/aarch64-linux-gnu \ 
+ -fuse-ld=/usr/bin/aarch64-linux-gnu-ld \ 
+-O3 -march=armv8-a -mtune=cortex-a53 -fno-stack-protector -no-pie -flto -ffunction-sections -fdata-sections -fomit-frame-pointer -ffast-math -fno-exceptions -fno-rtti -U__FLOAT128__ -D__float128=double -Wl,--gc-sections -s ./Version2_asm_cross.cpp -o aarch64_login
+```
+
+
+
 > 如果编译过程有问题请发Issue,我会尽快解决   
 > 如果你不会编译可以联系我`QQ:1098346640`~~仅限妹子~~,我有时间会尽力帮助你
 ## 可能会继续补充的功能
